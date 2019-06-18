@@ -1,9 +1,9 @@
 {
-	"name": "Unix Timeconverter",
+	"name": "My Extension",
 	"version": "0.1",
-	"description": "A tool for converting Unix Timestamp into other data formats",
+	"description": "This is a description of my extension",
 	"manifest_version": 2,
-	"permissions": ["clipboardRead", "clipboardWrite"],
+	"permissions": [],
 	"browser_action": {
 		"default_popup": "index.html"
 	}
