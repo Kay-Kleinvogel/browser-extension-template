@@ -1,0 +1,10 @@
+{
+	"name": "Unix Timeconverter",
+	"version": "0.1",
+	"description": "A tool for converting Unix Timestamp into other data formats",
+	"manifest_version": 2,
+	"permissions": ["clipboardRead", "clipboardWrite"],
+	"browser_action": {
+		"default_popup": "index.html"
+	}
+}
