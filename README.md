@@ -3,7 +3,7 @@ This repository contains all the basic files that are needed in order to create 
 
 The code can be used as a starting point for creating your browser extension. It has all the files created that are needed.
 
-The file structur is
+File structur
 ```
 dist
 ├── index.html
