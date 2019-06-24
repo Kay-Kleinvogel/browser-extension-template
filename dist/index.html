@@ -10,52 +10,53 @@
 		<title>Unix Timeconverter</title>
 	</head>
 	<body>
-		<div id="header">
-			<div class="input-group" id="input_header">
-				<div class="input-group-prepend">
-					<span class="input-group-text" id="clipboard_input">
-						<i class="fas fa-paste"></i>
-					</span>
+		<div class="container" id="main_content">
+			<div id="header">
+				<div class="input-group" id="input_header">
+					<div class="input-group-prepend">
+						<span class="input-group-text" id="clipboard_input">
+							<i class="fas fa-paste"></i>
+						</span>
+					</div>
+					<input
+						id="timestamp_input"
+						type="number"
+						class="form-control"
+						placeholder="Unix Timestamp"
+					/>
 				</div>
-				<input
-					id="timestamp_input"
-					type="number"
-					class="form-control"
-					placeholder="Unix Timestamp"
-				/>
-			</div>
-			<hr />
-		</div>
-		<!-- End of header -->
-		<div id="ouput_group">
-			<div id="current_timestamp">
-				<span>Current Timestamp: </span>
-				<span class="output_value" id="current_timestamp_value"
-					>99999999999</span
-				>
 				<hr />
 			</div>
-			<div id="iso_string">
-				<span>ISO String: </span>
-				<span class="output_value" id="iso_string_value"
-					>2019-06-24T11:33:01</span
-				>
-				<hr />
-			</div>
-			<div id="dd/mm/yyyy">
-				<span>DD/MM/YYYY: </span>
-				<span class="output_value" id="dd/mm/yyyy_value">24/06/2019</span>
-				<hr />
-			</div>
-			<div id="mm/dd/yyyy">
-				<span>MM/DD/YYYY: </span>
-				<span class="output_value" id="mm/dd/yyyy_value">06/24/2019</span>
-				<hr />
-			</div>
-			<div id="yyyy/mm/dd">
-				<span>YYYY/MM/DD: </span>
-				<span class="output_value" id="yyyy/mm/dd_value">2019/06/24</span>
-				<hr />
+			<!-- End of header -->
+			<div id="ouput_group">
+				<div id="current_timestamp">
+					<span>Current Timestamp: </span>
+					<span class="output_value" id="current_timestamp_value"
+						>99999999999</span
+					>
+					<hr />
+				</div>
+				<div id="iso_string">
+					<span>ISO String: </span>
+					<span class="output_value" id="iso_string_value"
+						>2019-06-24T11:33:01</span
+					>
+					<hr />
+				</div>
+				<div id="dd/mm/yyyy">
+					<span>DD/MM/YYYY: </span>
+					<span class="output_value" id="dd/mm/yyyy_value">24/06/2019</span>
+					<hr />
+				</div>
+				<div id="mm/dd/yyyy">
+					<span>MM/DD/YYYY: </span>
+					<span class="output_value" id="mm/dd/yyyy_value">06/24/2019</span>
+					<hr />
+				</div>
+				<div id="yyyy/mm/dd">
+					<span>YYYY/MM/DD: </span>
+					<span class="output_value" id="yyyy/mm/dd_value">2019/06/24</span>
+				</div>
 			</div>
 		</div>
 	</body>
